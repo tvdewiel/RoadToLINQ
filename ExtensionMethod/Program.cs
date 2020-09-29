@@ -7,9 +7,9 @@ namespace ExtensionMethod
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            string x = "hello";
-            Console.WriteLine(x.SurroundWith("***"));
+            //Console.WriteLine("Hello World!");
+            //string x = "hello";
+            //Console.WriteLine(x.SurroundWith("***"));
 
 
             List<int> xc = new List<int> { 0, 5, 10 };

@@ -14,7 +14,6 @@ namespace ExtensionMethod
                 points.Add(new Point(xl[i], yl[i]));
             }
         }
-
         public int getN()
         {
             return points.Count;

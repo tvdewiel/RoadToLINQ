@@ -23,6 +23,10 @@ namespace lambda
             res = DP(d);
             Console.WriteLine($"res={res}");
 
+            DP = (dd) => { Console.WriteLine("lambda 2"); return dd.x * dd.y; };
+            res = DP(d);
+            Console.WriteLine($"res={res}");
+
             //Action
             Action<Data> showData = x => Console.WriteLine($"action showData : {x.name},{x.x},{x.y}");
             showData(d);

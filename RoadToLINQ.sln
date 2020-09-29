@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delegates", "delegates\delegates.csproj", "{00D78AA9-92E1-4A3E-8683-E6CC2FD9DC22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delegates", "delegates\delegates.csproj", "{00D78AA9-92E1-4A3E-8683-E6CC2FD9DC22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethod", "ExtensionMethod\ExtensionMethod.csproj", "{47701CCC-7370-4B09-9C02-DB03CB74C3CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethod", "ExtensionMethod\ExtensionMethod.csproj", "{47701CCC-7370-4B09-9C02-DB03CB74C3CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncAction", "FuncAction\FuncAction.csproj", "{663A003B-C1E3-4DDC-A9AF-66247005D1CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuncAction", "FuncAction\FuncAction.csproj", "{663A003B-C1E3-4DDC-A9AF-66247005D1CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lambda", "lambda\lambda.csproj", "{485DE173-3E46-4345-ABDE-FBC5090D369D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lambda", "lambda\lambda.csproj", "{485DE173-3E46-4345-ABDE-FBC5090D369D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{78643D49-9A98-4F1E-A065-BAEA008A0CC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQ", "LINQ\LINQ.csproj", "{78643D49-9A98-4F1E-A065-BAEA008A0CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delegateExample", "delegateExample\delegateExample.csproj", "{AF92FB7B-9FBB-4C87-98A2-263B74175536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncActionExample", "FuncActionExample\FuncActionExample.csproj", "{C4C6A9F2-6486-4FCB-9BCE-A001B580057C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExample", "LambdaExample\LambdaExample.csproj", "{E869C007-2DF4-422D-AB0B-1AA571B85A05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{78643D49-9A98-4F1E-A065-BAEA008A0CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78643D49-9A98-4F1E-A065-BAEA008A0CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78643D49-9A98-4F1E-A065-BAEA008A0CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF92FB7B-9FBB-4C87-98A2-263B74175536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF92FB7B-9FBB-4C87-98A2-263B74175536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF92FB7B-9FBB-4C87-98A2-263B74175536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF92FB7B-9FBB-4C87-98A2-263B74175536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C6A9F2-6486-4FCB-9BCE-A001B580057C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C6A9F2-6486-4FCB-9BCE-A001B580057C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C6A9F2-6486-4FCB-9BCE-A001B580057C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C6A9F2-6486-4FCB-9BCE-A001B580057C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E869C007-2DF4-422D-AB0B-1AA571B85A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E869C007-2DF4-422D-AB0B-1AA571B85A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E869C007-2DF4-422D-AB0B-1AA571B85A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E869C007-2DF4-422D-AB0B-1AA571B85A05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
